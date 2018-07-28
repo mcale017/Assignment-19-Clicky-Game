@@ -2,61 +2,61 @@
   {
     "id": 1,
     "name": "D.VA",
-    "image": "../public/images/D.VA.png"
+    "image": "./images/D.VA.png"
   },
   {
     "id": 2,
     "name": "GENJI",
-    "image": "../public/images/GENJI.png"
+    "image": "./images/GENJI.png"
   },
   {
     "id": 3,
     "name": "HANZO",
-    "image": "../public/images/HANZO.png"
+    "image": "./images/HANZO.png"
   },
   {
     "id": 4,
     "name": "PHARAH",
-    "image": "../public/images/PHARAH.png"
+    "image": "./images/PHARAH.png"
   },
   {
     "id": 5,
     "name": "REAPER",
-    "image": "../public/images/REAPER.png"
+    "image": "./images/REAPER.png"
   },
   {
     "id": 6,
     "name": "SOLDIER 76",
-    "image": "../public/images/SOLDIER 76.png"
+    "image": "./images/SOLDIER 76.png"
   },
   {
     "id": 7,
     "name": "TRACER",
-    "image": "../public/images/TRACER.png"
+    "image": "./images/TRACER.png"
   },
   {
     "id": 8,
     "name": "WIDOWMAKER",
-    "image": "../public/images/WIDOWMAKER.png"
+    "image": "./images/WIDOWMAKER.png"
   },
   {
     "id": 9,
     "name": "ANA",
-    "image": "../public/images/ANA.png"
+    "image": "./images/ANA.png"
   },
   {
     "id": 10,
     "name": "LUCIO",
-    "image": "../public/images/LUCIO.png"
+    "image": "./images/LUCIO.png"
   },
   {
     "id": 11,
     "name": "MERCY",
-    "image": "../public/images/MERCY.png"
+    "image": "./images/MERCY.png"
   },
   {
     "id": 12,
     "name": "ZENYATTA",
-    "image": "../public/images/ZENYATTA.png"
+    "image": "./images/ZENYATTA.png"
   }
 ]

@@ -1,37 +1,27 @@
 import React, { Component } from "react";
-import FriendCard from "./components/FriendCard";
+import HeroCard from "./components/HeroCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-import friends from "./friends.json";
+import heroes from "./heroes.json";
 import "./App.css";
 
 class App extends Component {
-  // Setting this.state.friends to the friends json array
+  // Setting this.state.heroes to the heroes json array
   state = {
-    friends
+    heroes
   };
 
-  removeFriend = id => {
-    // Filter this.state.friends for friends with an id not equal to the id being removed
-    const friends = this.state.friends.filter(friend => friend.id !== id);
-    // Set this.state.friends equal to the new friends array
-    this.setState({ friends });
-  };
-
-  // Map over this.state.friends and render a FriendCard component for each friend object
+  // Map over this.state.heroes and render a HeroCard component for each hero object
   render() {
     return (
       <Wrapper>
-        <Title>Friends List</Title>
-        {this.state.friends.map(friend => (
-          <FriendCard
-            removeFriend={this.removeFriend}
-            id={friend.id}
-            key={friend.id}
-            name={friend.name}
-            image={friend.image}
-            occupation={friend.occupation}
-            location={friend.location}
+        <Title>Heroes List</Title>
+        {this.state.heroes.map(hero => (
+          <HeroCard
+            id={hero.id}
+            key={hero.id}
+            name={hero.name}
+            image={require(`${hero.image}`)}
           />
         ))}
       </Wrapper>
